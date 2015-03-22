@@ -12,8 +12,8 @@ makeCacheMatrix <- function(x = matrix()) {
       env <- environment()
       
       ##print environment info for debug/learning
-      print(environment())
-      print(parent.env(env))
+      ##print(environment())
+      ##print(parent.env(env))
       
       ##resets the matrix if passed as argument and resets inv
       set <- function(y) {
